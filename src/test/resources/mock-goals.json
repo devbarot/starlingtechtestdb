@@ -1,0 +1,30 @@
+{
+  "savingsGoalList": [
+    {
+      "savingsGoalUid": "ce758212-0fdf-453d-a615-828e62fd0eb4",
+      "name": "Christmas",
+      "target": {
+        "currency": "GBP",
+        "minorUnits": 106797
+      },
+      "totalSaved": {
+        "currency": "GBP",
+        "minorUnits": 0
+      },
+      "savedPercentage": 0
+    },
+    {
+      "savingsGoalUid": "8925339d-eee8-483f-8472-6f487c9f0534",
+      "name": "Holiday",
+      "target": {
+        "currency": "GBP",
+        "minorUnits": 1000
+      },
+      "totalSaved": {
+        "currency": "GBP",
+        "minorUnits": 61
+      },
+      "savedPercentage": 6
+    }
+  ]
+}
