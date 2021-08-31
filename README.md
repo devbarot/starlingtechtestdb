@@ -1,19 +1,19 @@
 # Read Me: Starling Bank technical test
 
-##Task:
+#Task:
 - Develop a “round-up” feature for Starling customers using Starling Bank's public
   developer API that is available to all customers and partners.
   
-##Tech used:
+#Tech used:
 - Java 8
 - Spring Web
 - Lombok
 
-##Assumptions:
+#Assumptions:
 - All the transactions are in GBP
 - Transactions are mostly integers
 
-##Approach/Things done
+#Approach/Things done
 - Used an MVC design to essentially allow requests to be made via Postman/Curl in order to interact
 with the API.
 - Implemented additional features that allow users to retrieve all goals, individual goals and create new goals.
@@ -22,7 +22,7 @@ with the API.
 - Used Lombok to remove boilerplate code in POJOs.
 
 
-##How to use this API
+#How to use this API
 
 Generate a bearer token from the developer sandbox on Starling Bank's API portal and place in 
 - ```src/main/resources/application.properties```
@@ -58,7 +58,7 @@ that timestamp to now. Use `2020-01-01T12:34:56.000Z`as an example:
 4) Finally, to see the amount of savings once the above call has been made, retrieve the individual savings account 
 again as instructed in Step 3. You should now see the values under `totalSaved` and `savedPercentage` have changed.
 
-##What I would do to enhance the API
+#What I would do to enhance the API
 - Implement a way to manage the refresh token a bit better if possible
 - Implement error handling
 - Refactor tests to clean up repetitive code
